@@ -8,7 +8,7 @@ var contactSchema = mongoose.Schema({
     },
     
     gender: String,
-    phone: String,
+    medicalId: String,
     ailments: String,
     medicines: String,
     dob: String
